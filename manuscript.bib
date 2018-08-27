@@ -1,0 +1,1133 @@
+% manuscript.bib by Albin Severinson
+% strings due to Eirik Rosnes and Alexandre Graell i Amat
+@STRING{ALLERTON = {Proc.~Allerton Conf.~Commun., Control, and Computing}}
+@STRING{ANNALS = {Annals of Telecommun.}}
+@STRING{DCC = {Proc.~IEEE Data Compression Conf.}}
+@STRING{ELETTER = {Electron.~Lett.}}
+@STRING{EUSIPCO = {Proc.~European Signal Processing Conf.}}
+@STRING{GLOBECOM = {Proc.~IEEE Global Telecommun.~Conf.}}
+@STRING{ICASSP = {Proc.~IEEE Int.~Conf.~Acoust., Speech, and Signal Processing}}
+@STRING{IJSAC = {IEEE J.~Sel.~Areas in Commun.}}
+@STRING{ISCAS = {Proc.~IEEE Int.~Symp.~Circuits and Systems}}
+@STRING{ISIT = {Proc.~IEEE Int.~Symp.~Inf.~Theory}}
+@STRING{istc3 = {Proc. 3rd Int. Symp. Turbo Codes {\&} Rel. Topics}}
+@STRING{istc4 = {Proc. 4th Int. Symp. Turbo Codes {\&} Rel. Topics}}
+@STRING{ITASSP = {IEEE Trans.~Acoust., Speech, Signal Processing}}
+@STRING{ITCOM = {IEEE Trans.~Commun.}}
+@STRING{ITCOMLET = {IEEE Commun.~Lett.}}
+@STRING{ITCS = {IEEE Trans.~Circuits and Syst.~II}}
+@STRING{ITIN = {IEEE Trans.~Inf.~Theory}}
+@STRING{ITIP = {IEEE Trans.~Image Processing}}
+@STRING{ITSAP = {IEEE Trans.~Speech and Audio Processing}}
+@STRING{ITSP = {IEEE Trans.~Signal Processing}}
+@STRING{ITSPLET = {IEEE Signal Processing Lett.}}
+@STRING{ITWIREL = {IEEE Trans.~Wireless Commun.}}
+@STRING{pricomm = {Proc.~IEEE Int.~Conf.~Commun.}}
+@STRING{ITW = {Proc.~IEEE Inf.~Theory Workshop}}
+@STRING{IJCIII = {Proc.~Int.~Joint Conf.~INC, IMS and IDC}}
+@STRING{SOSDI = {Proc.~Conf.~Symp.~Operating Systems Design \& Implementation}}
+@STRING{ISFCS = {Proc.~IEEE Symp. Foundations Computer Science}}
+@STRING{ICCC = {Proc.~IEEE Conf. Computer Commun.}}
+
+@inproceedings{rajagopalan94,
+  author =       {Sridhar Rajagopalan and Leonard Schulman},
+  title =        {A coding theorem for distributed computation},
+  booktitle =    {Proceedings of the twenty-sixth annual ACM symposium
+                  on Theory of computing - STOC '94},
+  year =         1994,
+  pages =        {nil},
+  doi =          {10.1145/195058.195462},
+  url =          {http://dx.doi.org/10.1145/195058.195462},
+  DATE_ADDED =   {Sun Aug 28 09:07:12 2016},
+  month =        {-},
+}
+
+@inproceedings{kanoria07_distr_comput_noisy_random_planar_networ,
+  author =       {Yashodhan Kanoria and D. Manjunath},
+  title =        {On Distributed Computation in Noisy Random Planar
+                  Networks},
+  booktitle =    {2007 IEEE International Symposium on Information
+                  Theory},
+  year =         2007,
+  pages =        {nil},
+  doi =          {10.1109/isit.2007.4557101},
+  url =          {http://dx.doi.org/10.1109/isit.2007.4557101},
+  DATE_ADDED =   {Sun Aug 28 09:09:03 2016},
+  month =        6,
+}
+
+@inproceedings{schulman93_deter,
+  author =       {Leonard J. Schulman},
+  title =        {Deterministic coding for interactive communication},
+  booktitle =    {Proceedings of the twenty-fifth annual ACM symposium
+                  on Theory of computing - STOC '93},
+  year =         1993,
+  pages =        {nil},
+  doi =          {10.1145/167088.167279},
+  url =          {http://dx.doi.org/10.1145/167088.167279},
+  DATE_ADDED =   {Sun Aug 28 09:10:12 2016},
+  month =        {-},
+}
+
+@article{mitzenmacher12:_biff_bloom_filter_codes,
+  title = {Biff (Bloom Filter) Codes : Fast Error Correction for Large Data Sets},
+  author = {Mitzenmacher, Michael and Varghese, George},
+  archivePrefix = {arXiv},
+  year = {2012},
+  eprint = {1208.0798v1},
+  primaryClass = {cs.DS},
+  abstract = {Large data sets are increasingly common in cloud and virtualized
+environments. For example, transfers of multiple gigabytes are commonplace, as
+are replicated blocks of such sizes. There is a need for fast error-correction
+or data reconciliation in such settings even when the expected number of errors
+is small.
+  Motivated by such cloud reconciliation problems, we consider error-correction
+schemes designed for large data, after explaining why previous approaches
+appear unsuitable. We introduce Biff codes, which are based on Bloom filters
+and are designed for large data. For Biff codes with a message of length $L$
+and $E$ errors, the encoding time is $O(L)$, decoding time is $O(L + E)$ and
+the space overhead is $O(E)$. Biff codes are low-density parity-check codes;
+they are similar to Tornado codes, but are designed for errors instead of
+erasures. Further, Biff codes are designed to be very simple, removing any
+explicit graph structures and based entirely on hash tables. We derive Biff
+codes by a simple reduction from a set reconciliation algorithm for a recently
+developed data structure, invertible Bloom lookup tables. While the underlying
+theory is extremely simple, what makes this code especially attractive is the
+ease with which it can be implemented and the speed of decoding. We present
+results from a prototype implementation that decodes messages of 1 million
+words with thousands of errors in well under a second.},
+  url = {http://arxiv.org/abs/1208.0798v1},
+}
+
+@article{metzner83_parit_struc_large_remot_locat,
+  author =       { Metzner},
+  title =        {A Parity Structure for Large Remotely Located
+                  Replicated Data Files},
+  journal =      {IEEE Transactions on Computers},
+  volume =       {C-32},
+  number =       8,
+  pages =        {727-730},
+  year =         1983,
+  doi =          {10.1109/tc.1983.1676310},
+  url =          {http://dx.doi.org/10.1109/tc.1983.1676310},
+  DATE_ADDED =   {Sun Aug 28 09:12:21 2016},
+}
+
+@inproceedings{spielmanil_highl,
+  author =       {D.A. Spielman},
+  title =        {Highly fault-tolerant parallel computation},
+  booktitle =    {Proceedings of 37th Conference on Foundations of
+                  Computer Science},
+  year =         {nil},
+  pages =        {nil},
+  doi =          {10.1109/sfcs.1996.548474},
+  url =          {http://dx.doi.org/10.1109/sfcs.1996.548474},
+  DATE_ADDED =   {Sun Aug 28 09:30:59 2016},
+  month =        {-},
+}
+
+@inproceedings{xiang13_scalab_mapred,
+  author =       { Jingen Xiang and Cong Guo and A. Aboulnaga},
+  title =        {Scalable maximum clique computation using MapReduce},
+  booktitle =    {2013 IEEE 29th International Conference on Data
+                  Engineering (ICDE)},
+  year =         2013,
+  pages =        {nil},
+  doi =          {10.1109/icde.2013.6544815},
+  url =          {http://dx.doi.org/10.1109/icde.2013.6544815},
+  DATE_ADDED =   {Sun Aug 28 09:32:20 2016},
+  month =        4,
+}
+
+@inproceedings{rachlin08,
+  author =       {Eric Rachlin and John E. Savage},
+  title =        {A framework for coded computation},
+  booktitle =    isit,
+  year =         2008,
+  pages =        {nil},
+  doi =          {10.1109/isit.2008.4595409},
+  url =          {http://dx.doi.org/10.1109/isit.2008.4595409},
+  DATE_ADDED =   {Sun Aug 28 09:35:42 2016},
+  month =        7,
+}
+
+@article{papailiopoulos12:_local_repair_codes,
+  title = {Locally Repairable Codes},
+  author = {Papailiopoulos, Dimitris S. and Dimakis, Alexandros G.},
+  archivePrefix = {arXiv},
+  year = {2012},
+  eprint = {1206.3804v2},
+  primaryClass = {cs.IT},
+  abstract = {Distributed storage systems for large-scale applications typically use
+replication for reliability. Recently, erasure codes were used to reduce the
+large storage overhead, while increasing data reliability. A main limitation of
+off-the-shelf erasure codes is their high-repair cost during single node
+failure events. A major open problem in this area has been the design of codes
+that {\it i)} are repair efficient and {\it ii)} achieve arbitrarily high data
+rates.
+  In this paper, we explore the repair metric of {\it locality}, which
+corresponds to the number of disk accesses required during a
+{\color{black}single} node repair. Under this metric we characterize an
+information theoretic trade-off that binds together locality, code distance,
+and the storage capacity of each node. We show the existence of optimal {\it
+locally repairable codes} (LRCs) that achieve this trade-off. The achievability
+proof uses a locality aware flow-graph gadget which leads to a randomized code
+construction. Finally, we present an optimal and explicit LRC that achieves
+arbitrarily high data-rates. Our locality optimal construction is based on
+simple combinations of Reed-Solomon blocks.},
+  url = {http://arxiv.org/abs/1206.3804v2},
+}
+
+@INPROCEEDINGS{Li2015,
+author={S. Li and M. A. Maddah-Ali and A. S. Avestimehr},
+booktitle=ALLERTON,
+title={Coded {M}ap{R}educe},
+year={2015},
+pages={964--971},
+address = {Monticello, IL},
+keywords={data handling;parallel programming;Coded MapReduce framework;communication load;computation load;data block mapping;multiplicative factor;shuffling phase;Cache memory;Electrical engineering;Encoding;Local area networks;Multicast communication;Programming;Servers},
+doi={10.1109/ALLERTON.2015.7447112},
+month=sep,
+}
+
+
+@inproceedings{Dean2004,
+ author = {Dean, Jeffrey and Ghemawat, Sanjay},
+ title = {{M}ap{R}educe: Simplified Data Processing on Large Clusters},
+ booktitle = SOSDI,
+ volumn = 6,
+ year = {2004},
+ month = dec,
+ address = {San Francisco, CA},
+ pages = {10},
+ numpages = {1},
+ }
+
+
+@article{HPL-2002-57R1,
+  author =       {Milojicic, D.S., Kalogeraki, V., Lukose, R. et al.},
+  title =        {Peer-to-peer computing},
+  year =         2002,
+  url =          {http://www.hpl.hp.com/techreports/2002/HPL-2002-57R1.pdf},
+  DATE_ADDED =   {Sun Aug 28 09:40:44 2016},
+}
+
+@article{benet14:_ipfs_conten_addres_version_p2p_file_system,
+  title = {IPFS - Content Addressed, Versioned, P2P File System},
+  author = {Benet, Juan},
+  archivePrefix = {arXiv},
+  year = {2014},
+  eprint = {1407.3561v1},
+  primaryClass = {cs.NI},
+  abstract = {The InterPlanetary File System (IPFS) is a peer-to-peer distributed file
+system that seeks to connect all computing devices with the same system of
+files. In some ways, IPFS is similar to the Web, but IPFS could be seen as a
+single BitTorrent swarm, exchanging objects within one Git repository. In other
+words, IPFS provides a high throughput content-addressed block storage model,
+with content-addressed hyper links. This forms a generalized Merkle DAG, a data
+structure upon which one can build versioned file systems, blockchains, and
+even a Permanent Web. IPFS combines a distributed hashtable, an incentivized
+block exchange, and a self-certifying namespace. IPFS has no single point of
+failure, and nodes do not need to trust each other.},
+  url = {http://arxiv.org/abs/1407.3561v1},
+}
+
+@article{kumar15:_famil_erasur_correc_codes_low,
+  title = {A Family of Erasure Correcting Codes with Low Repair Bandwidth and Low
+  Repair Complexity},
+  author = {Kumar, Siddhartha and Amat, Alexandre Graell i and Andriyanova, Iryna and Brännström, Fredrik},
+  archivePrefix = {arXiv},
+  year = {2015},
+  eprint = {1505.03491v2},
+  primaryClass = {cs.IT},
+  abstract = {We present the construction of a new family of erasure correcting codes for
+distributed storage that yield low repair bandwidth and low repair complexity.
+The construction is based on two classes of parity symbols. The primary goal of
+the first class of symbols is to provide good erasure correcting capability,
+while the second class facilitates node repair, reducing the repair bandwidth
+and the repair complexity. We compare the proposed codes with other codes
+proposed in the literature.},
+  url = {http://arxiv.org/abs/1505.03491v2},
+}
+
+@article{pedersen16:_distr_storag_mobil_wirel_networ,
+  title = {Distributed Storage in Mobile Wireless Networks with Device-to-Device
+  Communication},
+  author = {Pedersen, Jesper and Amat, Alexandre Graell i and Andriyanova, Iryna and Brännström, Fredrik},
+  archivePrefix = {arXiv},
+  year = {2016},
+  eprint = {1601.00397v2},
+  primaryClass = {cs.IT},
+  abstract = {We consider distributed storage (DS) to reduce the communication cost of
+content delivery in wireless networks. Content is stored in some mobile devices
+using an erasure correcting code. Users retrieve content from other devices
+using device-to-device communication or from the base station (BS). We address
+the repair problem when a device that stores data leaves the cell. We introduce
+a repair scheduling where repair is performed periodically and derive
+analytical expressions for the overall communication cost of content download
+and data repair as a function of the repair interval. These expressions are
+then used to evaluate the communication cost entailed by DS using several
+erasure correcting codes. Our results show that DS can reduce the communication
+cost with respect to the case where content is downloaded only from the BS,
+provided that repairs are performed frequently enough. The required repair
+frequency depends on the code used for storage and network parameters. If
+devices storing content arrive to the cell, the communication cost using DS is
+further reduced and, for large enough arrival rate, it is always beneficial. We
+show that MDS codes, which do not perform well for classical DS, can yield a
+low overall communication cost in wireless DS.},
+  url = {http://arxiv.org/abs/1601.00397v2},
+}
+
+@article{kumar16:_secur_repair_fount_codes,
+  title = {Secure Repairable Fountain Codes},
+  author = {Kumar, Siddhartha and Rosnes, Eirik and Amat, Alexandre Graell i},
+  archivePrefix = {arXiv},
+  year = {2016},
+  eprint = {1605.08300v1},
+  primaryClass = {cs.IT},
+  abstract = {In this letter, we provide the construction of repairable fountain codes
+(RFCs) for distributed storage systems that are information-theoretically
+secure against an eavesdropper that has access to the data stored in a subset
+of the storage nodes and the data downloaded to repair an additional subset of
+storage nodes. The security is achieved by adding random symbols to the
+message, which is then encoded by the concatenation of a Gabidulin code and an
+RFC. We compare the achievable code rates of the proposed codes with those of
+secure minimum storage regenerating codes and secure locally repairable codes.},
+  url = {http://arxiv.org/abs/1605.08300v1},
+}
+
+@article{piemontese16:_mds_coded_distr_storag_low,
+  title = {MDS-Coded Distributed Storage for Low Delay Wireless Content Delivery},
+  author = {Piemontese, Amina and Amat, Alexandre Graell i},
+  archivePrefix = {arXiv},
+  year = {2016},
+  eprint = {1607.00880v1},
+  primaryClass = {cs.IT},
+  abstract = {We address the use of maximum distance separable (MDS) codes for distributed
+storage (DS) to enable efficient content delivery in wireless networks. Content
+is stored in a number of the mobile devices and can be retrieved from them
+using device-to-device communication or, alternatively, from the base station
+(BS). We derive an analytical expression for the download delay in the
+hypothesis that the reliability state of the network is periodically restored.
+Our analysis shows that MDS-coded DS can dramatically reduce the download time
+with respect to the reference scenario where content is always downloaded from
+the BS.},
+  url = {http://arxiv.org/abs/1607.00880v1},
+}
+
+@inproceedings{gentry09_fully,
+  author =       {Craig Gentry},
+  title =        {Fully homomorphic encryption using ideal lattices},
+  booktitle =    {Proceedings of the 41st annual ACM symposium on
+                  Symposium on theory of computing - STOC '09},
+  year =         2009,
+  pages =        {nil},
+  doi =          {10.1145/1536414.1536440},
+  url =          {http://dx.doi.org/10.1145/1536414.1536440},
+  DATE_ADDED =   {Sun Aug 28 10:41:58 2016},
+  month =        {-},
+}
+
+@article{eppstein07:_strag_ident_round_trip_data,
+  title = {Straggler Identification in Round-Trip Data Streams via Newton's
+  Identities and Invertible Bloom Filters},
+  author = {Eppstein, David and Goodrich, Michael T.},
+  archivePrefix = {arXiv},
+  year = {2007},
+  eprint = {0704.3313},
+  primaryClass = {cs.DS},
+  abstract = {We introduce the straggler identification problem, in which an algorithm must
+determine the identities of the remaining members of a set after it has had a
+large number of insertion and deletion operations performed on it, and now has
+relatively few remaining members. The goal is to do this in o(n) space, where n
+is the total number of identities. The straggler identification problem has
+applications, for example, in determining the set of unacknowledged packets in
+a high-bandwidth multicast data stream. We provide a deterministic solution to
+the straggler identification problem that uses only O(d log n) bits and is
+based on a novel application of Newton's identities for symmetric polynomials.
+This solution can identify any subset of d stragglers from a set of n O(log
+n)-bit identifiers, assuming that there are no false deletions of identities
+not already in the set. Indeed, we give a lower bound argument that shows that
+any small-space deterministic solution to the straggler identification problem
+cannot be guaranteed to handle false deletions. Nevertheless, we show that
+there is a simple randomized solution using O(d log n log(1/epsilon)) bits that
+can maintain a multiset and solve the straggler identification problem,
+tolerating false deletions, where epsilon>0 is a user-defined parameter
+bounding the probability of an incorrect response. This randomized solution is
+based on a new type of Bloom filter, which we call the invertible Bloom filter.},
+  url = {http://arxiv.org/abs/0704.3313v3},
+}
+
+@inproceedings {181983,
+author = {James Cipar and Qirong Ho and Jin Kyu Kim and Seunghak Lee and Gregory R. Ganger and Garth Gibson and Kimberly Keeton and Eric Xing},
+title = {Solving the Straggler Problem with Bounded Staleness},
+booktitle = {Presented as part of the 14th Workshop on Hot Topics in Operating Systems},
+year = {2013},
+location = {Santa Ana Pueblo, NM},
+url = {https://www.usenix.org/conference/hotos13/solving-straggler-problem-bounded-staleness},
+publisher = {USENIX},
+address = {Berkeley, CA}
+}
+
+@article{radicchi11:_who,
+  title = {Who is the best player ever? A complex network analysis of the history
+  of professional tennis},
+  author = {Radicchi, Filippo},
+  archivePrefix = {arXiv},
+  year = {2011},
+  eprint = {1101.4028v2},
+  primaryClass = {physics.soc-ph},
+  abstract = {We consider all matches played by professional tennis players between 1968
+and 2010, and, on the basis of this data set, construct a directed and weighted
+network of contacts. The resulting graph shows complex features, typical of
+many real networked systems studied in literature. We develop a diffusion
+algorithm and apply it to the tennis contact network in order to rank
+professional players. Jimmy Connors is identified as the best player of the
+history of tennis according to our ranking procedure. We perform a complete
+analysis by determining the best players on specific playing surfaces as well
+as the best ones in each of the years covered by the data set. The results of
+our technique are compared to those of two other well established methods. In
+general, we observe that our ranking method performs better: it has a higher
+predictive power and does not require the arbitrary introduction of external
+criteria for the correct assessment of the quality of players. The present work
+provides a novel evidence of the utility of tools and methods of network theory
+in real applications.},
+  url = {http://arxiv.org/abs/1101.4028v2},
+}
+
+@inbook{06_chapt_four,
+  DATE_ADDED =   {Tue Sep 6 19:46:17 2016},
+  author =       {},
+  booktitle =    {Google's PageRank and Beyond},
+  doi =          {10.1515/9781400830329-005},
+  pages =        {nil},
+  publisher =    {Walter de Gruyter GmbH},
+  series =       {Google's PageRank and Beyond},
+  title =        {Chapter Four. The Mathematics of Google's PageRank},
+  url =          {http://dx.doi.org/10.1515/9781400830329-005},
+  year =         {2006},
+}
+
+@article{Ishii2014,
+author={H. Ishii and R. Tempo},
+journal={IEEE Control Systems},
+title={The {P}age{R}ank Problem, Multiagent Consensus, and Web Aggregation: A Systems and Control Viewpoint},
+year={2014},
+volume={34},
+number={3},
+pages={34--53},
+keywords={Internet;Web sites;multi-agent systems;search engines;Google Internet search engine;PageRank problem;Web aggregation;Web page;Web surfers;World Wide Web;hyperlinked documents;multiagent consensus;Algorithm design and analysis;Information retrieval;Ranking (statistics);Search engines;Search methods;Web pages;Web search},
+doi={10.1109/MCS.2014.2308672},
+ISSN={1066-033X},
+month=jun,}
+
+
+@article{sarma15_fast_distr_pager_comput,
+  author =       {Atish Das Sarma and Anisur Rahaman Molla and Gopal
+                  Pandurangan and Eli Upfal},
+  title =        {Fast Distributed Pagerank Computation},
+  journal =      {Theoretical Computer Science},
+  volume =       561,
+  number =       {nil},
+  pages =        {113-121},
+  year =         2015,
+  doi =          {10.1016/j.tcs.2014.04.003},
+  url =          {http://dx.doi.org/10.1016/j.tcs.2014.04.003},
+  DATE_ADDED =   {Tue Sep 6 19:54:12 2016},
+}
+
+@article{liang14_fast_cloud,
+  author =       {Guanfeng Liang and Ulas C. Kozat},
+  title =        {Fast Cloud: Pushing the Envelope on Delay
+                  Performance of Cloud Storage With Coding},
+  journal =      {IEEE/ACM Transactions on Networking},
+  volume =       22,
+  number =       6,
+  pages =        {2012-2025},
+  year =         2014,
+  doi =          {10.1109/tnet.2013.2289382},
+  url =          {http://dx.doi.org/10.1109/TNET.2013.2289382},
+  DATE_ADDED =   {Sun Sep 11 12:14:09 2016},
+}
+
+@article{marshall84_codin_real_number_sequen_error_correc,
+  author =       {T. Marshall},
+  title =        {Coding of Real-Number Sequences for Error
+                  Correction: A Digital Signal Processing Problem},
+  journal =      {IEEE J. Select. Areas Commun.},
+  volume =       2,
+  number =       2,
+  pages =        {381-392},
+  year =         1984,
+  doi =          {10.1109/jsac.1984.1146063},
+  url =          {http://dx.doi.org/10.1109/jsac.1984.1146063},
+  DATE_ADDED =   {Wed Sep 14 14:30:27 2016},
+}
+
+@article{zaixing13_compressed_sensing_based_real_number_ldpc_real_number_code,
+  author =       {Zaixing HE, Takahiro OGAWA, Miki HASEYAMA, Xinyue ZHAO, Shuyou ZHANG},
+  title =        {A Compressed Sensing-Based Low-Density Parity-Check
+                  Real-Number Code},
+  journal =      {Radioengineering},
+  volume =       22,
+  number =       3,
+  pages =        {851-860},
+  year =         2013,
+  doi =          {10.13164/re},
+  url =          {http://dx.doi.org/10.13164/re},
+  DATE_ADDED =   {Wed Sep 14 14:30:27 2016},
+}
+
+@article{dimakis10:_ldpc_codes_compr_sensin,
+  title = {LDPC Codes for Compressed Sensing},
+  author = {Dimakis, Alexandros G. and Smarandache, Roxana and Vontobel, Pascal O.},
+  archivePrefix = {arXiv},
+  year = {2010},
+  eprint = {1012.0602},
+  primaryClass = {cs.IT},
+  abstract = {We present a mathematical connection between channel coding and compressed
+sensing. In particular, we link, on the one hand, \emph{channel coding linear
+programming decoding (CC-LPD)}, which is a well-known relaxation o
+maximum-likelihood channel decoding for binary linear codes, and, on the other
+hand, \emph{compressed sensing linear programming decoding (CS-LPD)}, also
+known as basis pursuit, which is a widely used linear programming relaxation
+for the problem of finding the sparsest solution of an under-determined system
+of linear equations. More specifically, we establis a tight connection between
+CS-LPD based on a zero-one measurement matrix over the reals and CC-LPD of the
+binary linear channel code that is obtained by viewing this measurement matrix
+as a binary parity-check matrix. This connection allows the translation of
+performance guarantees from one setup to the other. The main message of this
+paper is that parity-check matrices of "good" channel codes can be used as
+provably "good" measurement matrices under basis pursuit. In particular, we
+provide the first deterministic construction of compressed sensing measurement
+matrices with an order-optimal number of rows using high-girth low-density
+parity-check (LDPC) codes constructed by Gallager.},
+  url = {http://arxiv.org/abs/1012.0602v2},
+}
+
+@article{vaezi13:_wyner_ziv_codin_real_field,
+  title = {Wyner-Ziv Coding in the Real Field Based on BCH-DFT Codes},
+  author = {Vaezi, Mojtaba and Labeau, Fabrice},
+  archivePrefix = {arXiv},
+  year = {2013},
+  eprint = {1301.0297},
+  primaryClass = {cs.IT},
+  abstract = {We show how real-number codes can be used to compress correlated sources and
+establish a new framework for distributed lossy source coding, in which we
+quantize compressed sources instead of compressing quantized sources. This
+change in the order of binning and quantization blocks makes it possible to
+model correlation between continuous-valued sources more realistically and
+compensate for the quantization error when the sources are completely
+correlated. We focus on the asymmetric case, i.e., lossy source coding with
+side information at the decoder, also known as Wyner-Ziv coding. The encoding
+and decoding procedures are described in detail for discrete Fourier transform
+(DFT) codes, both for syndrome- and parity-based approaches. We also extend the
+parity-based approach to the case where the transmission channel is noisy and
+perform distributed joint source-channel coding in this context. The proposed
+system is well suited for low-delay communications. Furthermore, the
+mean-squared reconstruction error (MSE) is shown to be less than or close to
+the quantization error level, the ideal case in coding based on binary codes.},
+  url = {http://arxiv.org/abs/1301.0297v1},
+}
+
+@inbook{chen05_numer_stabl_real_number_codes,
+  DATE_ADDED =   {Sat Sep 17 10:26:00 2016},
+  author =       {Zizhong Chen and Jack Dongarra},
+  booktitle =    {Lecture Notes in Computer Science},
+  doi =          {10.1007/11428831_15},
+  pages =        {115--122},
+  publisher =    {Springer Science + Business Media},
+  series =       {Lecture Notes in Computer Science},
+  title =        {Numerically Stable Real Number Codes Based on Random
+                  Matrices},
+  url =          {http://dx.doi.org/10.1007/11428831\_15},
+  year =         {2005},
+}
+
+@Inbook{Chen2005,
+author="Chen, Zizhong
+and Dongarra, Jack",
+editor="Sunderam, Vaidy S.
+and van Albada, Geert Dick
+and Sloot, Peter M. A.
+and Dongarra, Jack J.",
+title="Numerically Stable Real Number Codes Based on Random Matrices",
+bookTitle="Computational Science -- ICCS 2005: 5th International Conference, Atlanta, GA, USA, May 22-25, 2005. Proceedings, Part I",
+year="2005",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="115--122",
+isbn="978-3-540-32111-8",
+doi="10.1007/11428831_15",
+url="http://dx.doi.org/10.1007/11428831\_15"
+}
+
+@INPROCEEDINGS{Li2016,
+  author    = {Songze Li and
+               Mohammad Ali Maddah{-}Ali and
+               Amir Salman Avestimehr},
+  booktitle={Proc. Workshop Network Coding and Appl.}, 
+  title={A Unified Coding Framework for Distributed Computing with Straggling Servers}, 
+  year={2016},
+  address = {Washington, DC},
+  keywords={encoding;coded framework;coded multicasting opportunities;distributed computing;information theoretic lower bound;linear computation;straggling servers;unified coding framework;Bandwidth;Computational modeling;Electrical engineering;Encoding;Multicast communication;Servers}, 
+  doi={10.1109/GLOCOMW.2016.7848828}, 
+  month=dec,
+}
+
+@article{Li2016_arxiv,
+  author    = {Songze Li and
+               Mohammad Ali Maddah{-}Ali and
+               Amir Salman Avestimehr},
+  title     = {A Unified Coding Framework for Distributed Computing with Straggling
+               Servers},
+  journal   = {CoRR},
+  year      = {2016},
+  month     = sep,
+  url       = {http://arxiv.org/abs/1609.01690},
+  timestamp = {Mon, 03 Oct 2016 17:51:10 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/LiMA16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{Lee2015_arxiv,
+  author    = {Kangwook Lee and
+               Maximilian Lam and
+               Ramtin Pedarsani and
+               Dimitris S. Papailiopoulos and
+               Kannan Ramchandran},
+  title     = {Speeding Up Distributed Machine Learning Using Codes},
+  journal   = {CoRR},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1512.02673},
+  timestamp = {Fri, 08 Apr 2016 07:34:30 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/LeeLPPR15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@INPROCEEDINGS{Lee2015,
+author={K. Lee and M. Lam and R. Pedarsani and D. Papailiopoulos and K. Ramchandran},
+booktitle=ISIT,
+title={Speeding up distributed machine learning using codes},
+year={2016},
+volume={},
+number={},
+pages={1143--1147},
+keywords={computational complexity;distributed algorithms;learning (artificial intelligence);matrix multiplication;coding-theoretic lens;data shuffling;distributed machine learning algorithms;exponential tail;matrix multiplication;straggler problem;subtask runtime;system noise;uncoded matrix multiplication;uncoded shuffling;Algorithm design and analysis;Convergence;Data models;Distributed databases;Encoding;Machine learning algorithms;Robustness},
+doi={10.1109/ISIT.2016.7541478},
+month=jul,
+address = {Barcelona, Spain},
+}
+
+@book{Arnold2008,
+author = {Arnold, B. C. and Balakrishnan, N. and Nagaraja, H. N.},
+title = {A First Course in Order Statistics},
+publisher = {Society for Industrial and Applied Mathematics},
+year = {2008},
+doi = {10.1137/1.9780898719062},
+address = {Philadelphia, PA, USA},
+edition   = {2},
+}
+
+@inproceedings{Zhi2001,
+abstract = {The computational cost of encryption is a barrier to wider application of a variety of data security protocols. Virtually all research on elliptic curve cryptography (ECC) provides evidence to suggest that ECC can provide a family of encryption algorithms that require fewer computational resources for implementation than do current widely used methods. This efficiency is obtained since ECC allows much shorter key lengths for equivalent levels of security. This paper suggests how improvements in execution of ECC algorithms can be obtained by changing the representation of the elements of the finite field of the ECC algorithm. Specifically, this research compares the time complexity of ECC computation over a variety of finite fields with elements expressed in the polynomial basis (PB) and normal basis (NB). Results presented here suggest that NB representations reduce the average aggregate time to perform basic ECC operations by a factor of 40 compared to the time required for operations in PB representation. A comparison of execution times for ECC and discrete log implementations of the ElGamal protocol is also presented},
+author={Zhi Li and J. Higgins and M. Clement},
+address = {Cincinnati, OH},
+doi = {10.1109/MASCOT.2001.948875},
+isbn = {0-7695-1315-8},
+issn = {1526-7639},
+booktitle = {Proc. Int. Symp. Model. Anal. Simul. Comput. Telecommun. Syst.},
+keywords = {Aggregates,Arithmetic,Computational efficiency,Cryptographic protocols,Data security,ElGamal protocol,Elliptic curve cryptography,Elliptic curves,GF(2n),Galois fields,Niobium,Polynomials,computational cost,cryptography,data security protocols,digital arithmetic,elliptic curve cryptosystem,encryption algorithms,execution times comparison,finite field arithmetic performance,normal basis,polynomial basis,polynomials,protocols,time complexity},
+title={Performance of finite field arithmetic in an elliptic curve cryptosystem},
+year = {2001},
+month=aug,
+pages = {249--256},
+}
+
+@article{Garr2013,
+author={G. Garrammone},
+journal=ITCOMLET,
+title={On Decoding Complexity of {R}eed-{S}olomon Codes on the Packet Erasure Channel},
+year={2013},
+volume={17},
+number={4},
+pages={773--776},
+keywords={Gaussian processes;Reed-Solomon codes;computational complexity;decoding;BM;Berlekamp-Massey algorithm;DVB-H standard;GE;Gaussian elimination algorithm;O-notation;PEC;RS codes;Reed-Solomon codes;asymptotic complexity;decoding complexity;digital video broadcasting-handhelds standard;finite-length complexity;packet erasure channel;packet sizes;Complexity theory;Digital video broadcasting;Indexes;Maximum likelihood decoding;Standards;Vectors;Berlekamp-Massey algorithm;Gaussian elimination algorithm;Reed-Solomon codes;packet erasure channel},
+doi={10.1109/LCOMM.2013.021913.122427},
+ISSN={1089-7798},
+month=apr,
+}
+
+@inproceedings{Severinson2017,
+  author = {Albin Severinson and Alexandre {Graell i Amat} and Eirik Rosnes},
+  title = {Block-Diagonal Coding for Distributed Computing With Straggling Servers},
+  booktitle=ITW,
+  address = {Kaohsiung, Taiwan},
+  year=2017, 
+  pages={nil}, 
+  month = nov,
+}
+
+@misc{Severinson2017code,
+  author       = {Albin Severinson},
+  title        = {{Coded Computing Tools}},
+  month        = aug,
+  year         = 2018,
+  doi          = {10.5281/zenodo.1400313},
+  url          = {https://doi.org/10.5281/zenodo.1400313},
+}
+
+@article{Hult2017,
+author = {Robert Hult and Feyyaz Emre Sancar and Mehdi Jalalmaab and Arun
+                  Vijayan and Albin Severinson and Marco Di Vaio and Paolo
+                  Falcone and Baris Fidan and Stefania Santini},
+title = {Design and experimental validation of a cooperative driving control
+                  architecture for the Grand Cooperative Driving Challenge
+                  2016},
+journal = {IEEE Transactions on Intelligent Transportation Systems},
+year = 2017,
+month = aug,
+}
+
+@INPROCEEDINGS{Liang2014, 
+author={G. Liang and U. C. Kozat},
+booktitle=ICCC,
+title={{TOFEC}: Achieving optimal throughput-delay trade-off of cloud storage using erasure codes},
+address={Toronto, ON, Canada},
+year={2014}, 
+pages={826--834}, 
+keywords={cloud computing;queueing theory;resource allocation;Amazon S3;TOFEC;TOFEC adaptation mechanism;admission control;chunking level;data downloading;data uploading;delay performance improvement;erasure coding;front-end proxy;heavy-workloads;latency reduction;light-workloads;optimal throughput-delay trade-off;overhead reduction;parallel connections;queueing delay prevention;resource sharing;scalable cloud storage;service delay minimization;throughput;trace-driven simulation;workload level;Cloud computing;Correlation;Delays;Encoding;Standards;Strips;Throughput;Cloud storage;Delay;FEC;Queueing}, 
+doi={10.1109/INFOCOM.2014.6848010}, 
+ISSN={0743-166X}, 
+month=apr,
+}
+
+@mastersthesis{Grec2016,
+  author       = {Marcel Grec}, 
+  title        = {Fountain Codes under Inactivation Decoding},
+  school       = {Technischen Universit{\"a}t M{\"u}nchen},
+  year         = 2016,
+  month        = dec,
+}
+
+@book{Balakrishnan2006,
+  title={Advances in Distribution Theory, Order Statistics, and Inference},
+  author={Balakrishnan, Narayanaswamy and Castillo, Enrique and Alegria, Jose-Maria Sarabia},
+  isbn={9780817644871},
+  lccn={2006900999},
+  year={2006},
+  publisher={Birkh{\"a}user Boston}
+}
+
+@article{Shokrollahi2006,
+abstract = {A Fountain code is a code of fixed dimension and a
+                  limitless block-length. This is a class of codes
+                  with many interesting properties and applications.
+                  In this talk I will introduce several classes of
+                  probabilistic Fountain codes, including LT-and
+                  Raptor codes, show tools for their design and
+                  analysis, and discuss how they are used today to
+                  solve various data transmission problems on
+                  heterogenous unreliable networks. I will also talk
+                  about the theory of these codes when transmission
+                  takes place over non-erasure channels, and
+                  low-complexity algorithms are used for their
+                  decoding.},
+author = {Shokrollahi, Amin},
+doi = {10.1109/TIT.2006.874390},
+file = {:home/albin/Dropbox/Bibliography/Papers/Shokrollahi/Shokrollahi - 2006 - Raptor codes(2).pdf:pdf},
+isbn = {978-1-4244-1200-6},
+issn = {00189448},
+journal = ITIN,
+keywords = {Binary erasure channel (BEC),Graphical codes,LT-codes,Networking},
+number = {6},
+pages = {2551--2567},
+title = {{Raptor codes}},
+volume = {52},
+year = {2006},
+month=jun,
+}
+
+@techreport{Walck2007,
+author = {Walck, Christian},
+title = {Hand-book on statistical distributions for experimentalists},
+file = {:home/albin/Dropbox/bibliography/Papers/Walck, Group/Walck, Group - 2007 - Hand-book on STATISTICAL DISTRIBUTIONS for experimentalists.pdf:pdf},
+mendeley-groups = {Statistics},
+url = {http://www.fysik.su.se/~walck/suf9601.pdf},
+month = sep,
+year = {2007},
+number = {SUF–PFY/96–01},
+institution = {Particle Physics Group, University of Stockholm},
+address =  {Sweden},
+contact = {walck@physto.se},
+}
+
+@inproceedings{Dutta2017,
+  author = {Dutta, Sanghamitra and Cadambe, Viveck and Grover, Pulkit},
+  title = {Coded convolution for parallel and distributed computing within a deadline},
+  booktitle=ISIT,
+  address = {Aachen, Germany},
+  year={2017}, 
+  pages={2403-2407}, 
+  month = jun,
+  doi={10.1109/ISIT.2017.8006960}, 
+}
+
+@ARTICLE{Lee2017, 
+author={K. Lee and M. Lam and R. Pedarsani and D. Papailiopoulos and K. Ramchandran}, 
+journal=ITIN,
+title={Speeding Up Distributed Machine Learning Using Codes}, 
+keywords={Algorithm design and analysis;Distributed databases;Encoding;Machine learning algorithms;Multicast communication;Robustness;Runtime}, 
+doi={10.1109/TIT.2017.2736066}, 
+ISSN={0018-9448}, 
+year=2018,
+volume=64, 
+number=3, 
+pages={1514-1529},
+month=mar,
+}
+
+@article{Sutter2005,
+ author = {Sutter, Herb and Larus, James},
+ title = {Software and the Concurrency Revolution},
+ journal = {ACM Queue},
+ issue_date = {September 2005},
+ volume = {3},
+ number = {7},
+ month = sep,
+ year = {2005},
+ issn = {1542-7730},
+ pages = {54--62},
+ numpages = {9},
+ doi = {10.1145/1095408.1095421},
+ acmid = {1095421},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+
+@book{Barroso2009,
+title = {The Datacenter as a Computer: An Introduction to the Design
+                  of Warehouse-Scale Machines},
+author  = {Luiz André Barroso and Urs Hölzle},
+year  = 2009,
+booktitle = {The Datacenter as a Computer: An Introduction to the Design of Warehouse-Scale Machines},
+publisher={Morgan \& Claypool Publishers},
+isbn={9781598295573},
+}
+
+@article{Chen2014,
+abstract = {It is already true that Big Data has drawn huge attention from researchers in information sciences, policy and decision makers in governments and enterprises. As the speed of information growth exceeds Moore's Law at the beginning of this new century, excessive data is making great troubles to human beings. However, there are so much potential and highly useful values hidden in the huge volume of data. A new scientific paradigm is born as data-intensive scientific discovery (DISD), also known as Big Data problems. A large number of fields and sectors, ranging from economic and business activities to public administration, from national security to scientific researches in many areas, involve with Big Data problems. On the one hand, Big Data is extremely valuable to produce productivity in businesses and evolutionary breakthroughs in scientific disciplines, which give us a lot of opportunities to make great progresses in many fields. There is no doubt that the future competitions in business productivity and technologies will surely converge into the Big Data explorations. On the other hand, Big Data also arises with many challenges, such as difficulties in data capture, data storage, data analysis and data visualization. This paper is aimed to demonstrate a close-up view about Big Data, including Big Data applications, Big Data opportunities and challenges, as well as the state-of-the-art techniques and technologies we currently adopt to deal with the Big Data problems. We also discuss several underlying methodologies to handle the data deluge, for example, granular computing, cloud computing, bio-inspired computing, and quantum computing. ?? 2014 Elsevier Inc. All rights reserved.},
+archivePrefix = {arXiv},
+arxivId = {1312.4722},
+author = {{	Chen}, C. L. P. and Zhang, Chun-Yang},
+doi = {10.1016/j.ins.2014.01.015},
+eprint = {1312.4722},
+file = {:home/albin/Dropbox/Bibliography/Papers/Chen, Zhang/Chen, Zhang - 2014 - Data-intensive applications, challenges, techniques and technologies A survey on Big Data.pdf:pdf},
+isbn = {0020-0255},
+issn = {00200255},
+journal = {Information Sciences},
+keywords = {Big Data,Cloud computing,Data-intensive computing,Parallel and distributed computing,e-Science},
+pages = {314--347},
+pmid = {96027714},
+publisher = {Elsevier},
+title = {{Data-intensive applications, challenges, techniques and technologies: A survey on big data}},
+volume = {275},
+year = {2014},
+month = aug,
+}
+
+@INPROCEEDINGS{Rimal2009,
+author={Rimal, Bhaskar Prasad and Choi, Eunmi and Lumb, Ian},
+booktitle=IJCIII,
+title={A Taxonomy and Survey of Cloud Computing Systems},
+address={Seoul, Korea},
+year={2009},
+pages={44--51},
+keywords={Web services;software architecture;cloud computing system survey;computational world;computer cluster;distributed computing fine tuning;large volumetric data processing support;memory size 20 TByte;pay-for-use model;raw Web data;taxonomy result;Cloud computing;Taxonomy;Cloud Computing;Distributed Computing;Evolution;Large Scale Processors;Massive Data;Taxonomy},
+doi={10.1109/NCM.2009.218},
+month=aug
+}
+
+@techreport{Stevens2017,
+title={The first collision for full SHA-1.},
+author={Stevens, Marc and Bursztein, Elie and Karpman, Pierre and Albertini, Ange and Markov, Yarik},
+url = {https://shattered.io/static/shattered.pdf},
+year=2017,
+institution = {CWI Amsterdam and Google Research},
+contact = {info@shattered.io},
+}
+
+@incollection{Barroso2011,
+  author    = {Luiz André Barroso},
+  booktitle = "Frontiers of Engineering: Reports on Leading-Edge Engineering from the 2010 Symposium",
+  title = {Warehouse-Scale Computing: The Machinery That Runs the Cloud},
+  isbn      = "978-0-309-16362-0",
+  doi       = "10.17226/13043",
+  abstract  = "This volume highlights the papers presented at the National Academy of Engineering's 2010 U.S. Frontiers of Engineering Symposium. Every year, the symposium brings together 100 outstanding young leaders in engineering to share their cutting-edge research and technical work. The 2010 symposium was held September 23 - 25, and hosted by IBM at the IBM Learning Center in Armonk, New York. Speakers were asked to prepare extended summaries of their presentations, which are reprinted here. The intent of this book is to convey the excitement of this unique meeting and to highlight cutting-edge developments in engineering research and technical work.",
+  year      = 2011,
+  publisher = "The National Academies Press",
+  address   = "Washington, DC",
+  pages = {15--19},
+}
+
+@article{Zaharia2016,
+ author = {Zaharia, Matei and Xin, Reynold S. and Wendell, Patrick and Das, Tathagata and Armbrust, Michael and Dave, Ankur and Meng, Xiangrui and Rosen, Josh and Venkataraman, Shivaram and Franklin, Michael J. and Ghodsi, Ali and Gonzalez, Joseph and Shenker, Scott and Stoica, Ion},
+ title = {Apache {S}park: A Unified Engine for Big Data Processing},
+ journal={Communications of the ACM},
+ issue_date = {November 2016},
+ volume = {59},
+ number = {11},
+ month = oct,
+ year = {2016},
+ issn = {0001-0782},
+ pages = {56--65},
+ numpages = {10},
+ doi = {10.1145/2934664},
+ acmid = {2934664},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{Ranjan2014,
+author={R. Ranjan}, 
+journal={IEEE Cloud Computing}, 
+title={Streaming Big Data Processing in Datacenter Clouds}, 
+year={2014}, 
+volume={1}, 
+number={1}, 
+pages={78-83}, 
+keywords={cloud computing;computer centres;Internet;Internet of Things;Internet search;business organizations;business transactions;content distribution;datacenter clouds;digital universe;government organizations;high-energy physics synchrotron;mobile devices;next-generation radio astronomy telescopes;social media;streaming big data processing;Big data;Cloud computing;Computer architecture;Data centers;Data mining;Distributed databases;Programming;Quality of service;Streaming media;big data;big data applications;cloud;data analysis;data mining;datacenter clouds;streaming big data processing}, 
+doi={10.1109/MCC.2014.22}, 
+ISSN={2325-6095}, 
+month=may,
+}
+
+@inproceedings{Luby2002,
+author={M. Luby},
+booktitle=ISFCS,
+title={{LT} codes},
+year={2002},
+pages={271-280},
+keywords={codes;encoding;randomised algorithms;LT codes;balls and bins;erasure codes;randomized algorithms;rateless codes;rateless erasure codes;reliable transport;universal codes;Aggregates;Computer science;Costs;Decoding;Encoding;Tornadoes},
+doi={10.1109/SFCS.2002.1181950},
+ISSN={0272-5428},
+address={Vancouver, BC, Canada},
+month=nov,
+}
+
+@misc{Shokrollahi2005,
+  title={Systems and processes for decoding chain reaction codes through inactivation},
+  author={Shokrollahi, M Amin and Lassen, Soren and Karp, Richard},
+  year={2005},
+  month=feb,
+  publisher={Google Patents},
+  note={{US} Patent 6,856,263}
+}
+
+@article{Halbawi2017,
+  author    = {Wael Halbawi and Navid Azizan Ruhi and Fariborz Salehi and Babak
+                  Hassibi},
+  title     = {Improving Distributed Gradient Descent Using {R}eed-{S}olomon Codes},
+  journal   = {CoRR},
+  volume    = {abs/1706.05436},
+  year      = {2017},
+  month     = jun,
+  url       = {http://arxiv.org/abs/1706.05436},
+  timestamp = {Mon, 03 Jul 2017 13:29:02 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/HalbawiRSH17},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{Li2017, 
+author={S. Li and S. Supittayapornpong and M. A. Maddah-Ali and S. Avestimehr}, 
+booktitle={Proc. IEEE Int. Parallel and Distributed Processing Symposium Workshops
+                  (IPDPSW)}, 
+title={Coded TeraSort}, 
+year={2017}, 
+pages={389-398}, 
+keywords={learning (artificial intelligence);parallel processing;sorting;Amazon EC2 clusters;CodedTeraSort;Hadoop;MapReduce;distributed sorting algorithm;machine learning;Benchmark testing;Distributed databases;Encoding;Machine learning algorithms;Redundancy;Sorting;Coding;Data Shuffling;Distributed Computing;Machine Learning;MapReduce;Sorting}, 
+doi={10.1109/IPDPSW.2017.33}, 
+month=may,
+}
+
+@inproceedings{Blasco2014, 
+author={F. L. Blasco and G. Liva and G. Bauch}, 
+booktitle=ITW, 
+title={{LT} code design for inactivation decoding}, 
+year={2014}, 
+pages={441-445}, 
+keywords={codes;decoding;numerical analysis;optimisation;transforms;LT code degree distribution design;Luby transform code;inactivation decoding complexity;numerical optimization;Algorithm design and analysis;Complexity theory;Decoding;Optimization;Prediction algorithms;Predictive models;Sparse matrices}, 
+doi={10.1109/ITW.2014.6970870}, 
+ISSN={1662-9019}, 
+month=nov,
+address="Hobart, Australia",
+}
+
+@article{Schotsch2013,
+author = {Schotsch, Birgit and Garrammone, Giuliano and Vary, Peter},
+journal=ITCOMLET,
+title={Analysis of {LT} Codes over Finite Fields under Optimal Erasure Decoding},
+year={2013},
+volume={17},
+number={9},
+pages={1826-1829},
+keywords={Galois fields;maximum likelihood decoding;transform coding;Galois fields;LT codes analysis;Luby transform code;code design;erasure correction performance;finite fields;fountain codes;maximum likelihood decoding;maximum likelihood erasure decoding;optimal erasure decoding;random matrices;residual erasure rates;symbol level;Generators;Maximum likelihood decoding;Monte Carlo methods;Receivers;Upper bound;Vectors;Fountain codes;finite fields;maximum likelihood decoding;random matrices},
+doi={10.1109/LCOMM.2013.072313.131212},
+ISSN={1089-7798},
+month=sep,
+}
+
+@article{Powell1964,
+author = {Powell, M. J. D.},
+title = {An efficient method for finding the minimum of a function of several variables without calculating derivatives},
+journal = {The Computer Journal},
+volume = {7},
+number = {2},
+pages = {155-162},
+year = {1964},
+month = jan,
+}
+
+@article{Wales1997,
+abstract = {We describe a global optimization technique using `basin-hopping' in which the potential energy surface is transformed into a collection of interpenetrating staircases. This method has been designed to exploit the features which recent work suggests must be present in an energy landscape for efficient relaxation to the global minimum. The transformation associates any point in configuration space with the local minimum obtained by a geometry optimization started from that point, effectively removing transition state regions from the problem. However, unlike other methods based upon hypersurface deformation, this transformation does not change the global minimum. The lowest known structures are located for all Lennard-Jones clusters up to 110 atoms, including a number that have never been found before in unbiased searches.},
+archivePrefix = {arXiv},
+arxivId = {cond-mat/9803344},
+author = {Wales, David J. and Doye, Jonathan P.K.},
+doi = {10.1021/jp970984n},
+eprint = {9803344},
+file = {:home/albin/Dropbox/bibliography/Papers/Wales, Doye/Wales, Doye - 1997 - Global optimization by basin-hopping and the lowest energy structures of Lennard-Jones clusters containing up to 11.pdf:pdf},
+isbn = {1089-5639},
+issn = {10895639},
+journal = {Journal of Physical Chemistry A},
+number = {28},
+pages = {5111--5116},
+pmid = {3330},
+primaryClass = {cond-mat},
+title = {{Global optimization by basin-hopping and the lowest energy structures of Lennard-Jones clusters containing up to 110 atoms}},
+volume = {101},
+year = {1997},
+month = jul,
+}
+
+@techreport{rfc6330,
+author = {Mike Luby and Amin Shokrollahi and Mark Watson and Thomas Stockhammer and Lorenz Minder}, 
+title =	{{RaptorQ Forward Error Correction Scheme for Object Delivery}},
+howpublished = {Internet Requests for Comments},
+type="{RFC}",
+number=6330,
+pages = {1-69},
+year = 2011,
+month = aug,
+issn = {2070-1721},
+publisher = "{RFC Editor}",
+institution = "{RFC Editor}",
+series = {Request for Comments},
+}
+% url={https://www.rfc-editor.org/rfc/rfc6330.txt},
+
+@ARTICLE{Lin2016, 
+author={Sian-Jheng Lin and Tareq Y. Al-Naffouri and Yunghsiang S. Han and Wei-Ho Chung}, 
+journal=ITIN, 
+title={Novel Polynomial Basis With Fast {F}ourier Transform and Its
+                  Application to {R}eed-{S}olomon Erasure Codes}, 
+year=2016, 
+volume=62, 
+number=11, 
+pages={6284-6299}, 
+keywords={Reed-Solomon codes;fast Fourier transforms;polynomials;Reed-Solomon erasure codes;extension binary fields;fast Fourier transform;polynomial basis;Additives;Complexity theory;Decoding;Discrete Fourier transforms;Reed-Solomon codes;STEM;Fast Fourier transform;Reed-Solomon code;finite field;polynomial basis}, 
+doi={10.1109/TIT.2016.2608892}, 
+ISSN={0018-9448}, 
+month=nov,
+}
+
+@ARTICLE{Edmonds2017, 
+author={Jeff Edmonds and Michael Luby}, 
+journal=ITIN, 
+title={Erasure Codes with a Hierarchical Bundle Structure}, 
+keywords={Computer science;Decoding;Encoding;Games;Graph theory;Probabilistic logic;Reed-Solomon codes}, 
+doi={10.1109/TIT.2017.2777836}, 
+ISSN={0018-9448}, 
+month={},
+year=2017, 
+note={to appear},
+}
+
+@inproceedings{Verma2015,
+title	= {Large-scale cluster management at {Google} with {Borg}},
+author	= {Abhishek Verma and Luis Pedrosa and Madhukar R. Korupolu and David Oppenheimer and Eric Tune and John Wilkes},
+year	= {2015},
+booktitle = {Proc.~European Conf.~Computer Systems},
+address	= {Bordeaux, France},
+month=apr,
+}
+
+@INPROCEEDINGS{Lee2017a, 
+author={K. Lee and C. Suh and K. Ramchandran}, 
+booktitle=ISIT, 
+title={High-dimensional coded matrix multiplication},
+address = {Aachen, Germany},
+year={2017}, 
+pages={2418-2422}, 
+doi={10.1109/ISIT.2017.8006963}, 
+month=jun,
+}
+
+@inproceedings{Qian2017,
+title = {Polynomial Codes: an Optimal Design for High-Dimensional Coded Matrix Multiplication},
+author = {Yu, Qian and Maddah-Ali, Mohammad and Avestimehr, Salman},
+booktitle = {Proc.~Advances Neural Inf.~Processing Systems},
+pages = {4403--4413},
+year = {2017},
+month = dec,
+address = {Long Beach, CA},
+}
+
+@inproceedings{Dutta2016,
+title = {{S}hort-{D}ot: Computing Large Linear Transforms Distributedly Using Coded Short Dot Products},
+author = {Dutta, Sanghamitra and Cadambe, Viveck and Grover, Pulkit},
+booktitle = {Proc.~Advances Neural Inf.~Processing Systems},
+pages = {2100--2108},
+year = {2016},
+month = dec,
+address = {Barcelona, Spain},
+}
+
+@INPROCEEDINGS{Reisizadeh2017,
+author={A. Reisizadeh and S. Prakash and R. Pedarsani and S. Avestimehr}, 
+booktitle=ISIT, 
+title={Coded computation over heterogeneous clusters}, 
+year={2017}, 
+pages={2408-2412}, 
+doi={10.1109/ISIT.2017.8006961}, 
+address = {Aachen, Germany},
+month=jun,
+}
+
+@article{Wang2015,
+ author = {Wang, Da and Joshi, Gauri and Wornell, Gregory},
+ title = {Using Straggler Replication to Reduce Latency in Large-scale Parallel Computing},
+ journal = {ACM SIGMETRICS Perform. Eval. Rev.},
+ issue_date = {December 2015},
+ volume = {43},
+ number = {3},
+ month = nov,
+ year = {2015},
+ issn = {0163-5999},
+ pages = {7--11},
+ numpages = {5},
+ doi = {10.1145/2847220.2847223},
+ acmid = {2847223},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {parallel computation, scheduling, task replication},
+} 
+
+@unpublished{Keshtkarjahromi2018,
+  author    = {Yasaman Keshtkarjahromi and
+               Hulya Seferoglu},
+  title     = {Coded Cooperative Computation for Internet of Things},
+  year      = 2018,
+  month     = jan,
+  url =  {https://arxiv.org/abs/1801.04357v1},
+}
